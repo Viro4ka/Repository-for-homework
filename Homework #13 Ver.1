@@ -6,3 +6,6 @@ property_transfer_xml = """
 
 x = property_transfer_xml.split("ns1")
 print(x[1])
+result=x[1].strip("=/")
+result=result[1:-3]
+print (result)
