@@ -22,4 +22,3 @@ def test_authorization():
     data = {'username': 'Sara', 'password': 'Kapibara99'}
     response = requests.post(url, json=data)
     assert response.status_code == 200
-
